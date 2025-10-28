@@ -1,0 +1,71 @@
+#blokA, #blokB, #blokC, #blokD
+{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+#blokA
+{
+    background-image: url(fioletowe-kwiatki.jpg);
+    background-color: #eeeeee;
+    background-repeat: repeat-x;
+}
+#blokD
+{
+    background-image: url(fioletowe-kwiatki.jpg);
+    background-color: #cccccc;
+    background-repeat: round;
+}
+#lista1
+{
+    list-style: lower-greek;
+    list-style-position: outside;
+}
+#lista2
+{
+    list-style-type: disclosure-closed;
+}
+#lista3
+{
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}
+#blok1
+{
+border-style: solid;
+border-width: 3px;
+margin-bottom: 5px;
+border-color: green;
+}
+#blok2
+{
+border-style: solid;
+border-width: 3px;
+margin-bottom: 5px;
+border-color: red;
+border-radius: 12px;
+}
+#blok3
+{
+border-style: solid;
+border-width: 3px;
+margin-bottom: 5px;
+border-radius: 12px /24px;
+}
+#blok3
+{
+    border-style: solid;
+border-width: 3px;
+margin-bottom: 5px;
+border-radius: 30px 30px 30px 30px /15px 15px 15px 15px;
+}
+#blok4
+{
+    margin: 0 auto;
+    border-width: 60px;
+    border-style: solid;
+    margin-top: 20px;
+    border-image: url(wzor.jpg) 27 / 50px 10px round;
+    height: 30%;
+    width: 50%;
+}
